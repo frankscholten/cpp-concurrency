@@ -10,6 +10,7 @@ include_directories("${PROJECT_SOURCE_DIR}")
 
 add_executable(hello ${PROJECT_SOURCE_DIR}/hello.cpp)
 add_executable(hwconcurrency ${PROJECT_SOURCE_DIR}/hwconcurrency.cpp)
+add_executable(threadid ${PROJECT_SOURCE_DIR}/threadid.cpp)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -pthread")
 
